@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap");
+* {
+  font-family: "Mouse Memoirs", sans-serif;
+
+  text-align: center;
+}
+
+body {
+  background: rgb(78, 250, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(78, 250, 255, 1) 0%,
+    rgba(8, 11, 99, 1) 50%,
+    rgba(78, 250, 255, 1) 100%
+  );
+}
+
+h1 {
+  font-size: 4.5em;
+  color: white;
+  border: 5px solid white;
+  width: 530px;
+  background: rgb(78, 250, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(78, 250, 255, 1) 0%,
+    rgba(8, 11, 99, 1) 50%,
+    rgba(78, 250, 255, 1) 100%
+  );
+}
+
+h2 {
+  border: 3px solid white;
+  padding: 20px;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+}
+.titulo-jugador {
+  color: white;
+  font-size: 2em;
+
+  box-sizing: border-box;
+  background: rgb(78, 250, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(78, 250, 255, 1) 0%,
+    rgba(8, 11, 99, 1) 50%,
+    rgba(78, 250, 255, 1) 100%
+  );
+}
+.oponentes {
+  background: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.terreno-jugador {
+  width: 50%;
+}
+.terreno-maquina{
+  width: 50%;
+}
+.lista-jugador {
+  list-style: none;
+}
+.imagen {
+  width: 170px;
+}
